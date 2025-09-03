@@ -10,28 +10,31 @@
         src: url("./webfonts/PretendardVariable.woff2") format("woff");
       }
       ul {
+        list-style: none;
+      }
+      ul li {
         width: 450px;
         height: 480px;
         border: 1px solid;
         border-radius: 70px 0;
-        list-style: none;
+
         background-image: url(https://www.shinsegaefood.com/images/background/bg_vs_value_1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        /* background-repeat: no-repeat;
+        background-size: cover; */
       }
-      div {
-        padding: 110px;
-      }
-      h1 {
+      ul li div {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        position: relative;
+        top: 35%;
         font-family: Pretendard;
         text-align: center;
         color: #fff;
+      }
+      ul li div h1 {
         font-size: 32px;
       }
-      p {
-        font-family: Pretendard;
-        text-align: center;
-        color: #fff;
+      ul li div p {
         font-size: 20px;
       }
     </style>
