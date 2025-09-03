@@ -11,6 +11,8 @@
       }
       ul {
         list-style: none;
+        width: 940px;
+        margin: 0 auto;
       }
       ul li {
         width: 450px;
@@ -19,7 +21,27 @@
       }
       ul li:first-child {
         background-image: url(https://www.shinsegaefood.com/images/background/bg_vs_value_1.jpg);
-        background-size: cover;
+      }
+      ul li:nth-child(2) {
+        background-image: url(https://www.shinsegaefood.com/images/background/bg_vs_value_2.jpg);
+      }
+      ul li:nth-child(3) {
+        background-image: url(https://www.shinsegaefood.com/images/background/bg_vs_value_3.jpg);
+      }
+      ul li:nth-child(4) {
+        background-image: url(https://www.shinsegaefood.com/images/background/bg_vs_value_4.jpg);
+      }
+      ul li:nth-child(even) {
+        /*2번째 4번째*/
+        float: right;
+      }
+      ul li:nth-child(odd) {
+        /*1번째 3번째*/
+        float: left;
+      }
+      ul li:nth-child(3),
+      ul li:nth-child(4) {
+        margin-top: 40px;
       }
       ul li div {
         position: relative;
